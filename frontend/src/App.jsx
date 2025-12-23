@@ -1,14 +1,7 @@
 function App() {
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <h1>School Portal – Frontend Ready</h1>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <h1 className="text-2xl font-semibold text-gray-800">School Portal</h1>
     </div>
   );
 }
